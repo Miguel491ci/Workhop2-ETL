@@ -1,0 +1,18 @@
+# Airflow logs
+logs/
+
+# Entorno
+.env
+
+# Archivos temporales de Excel o CSV generados
+*.csv
+*.xlsx
+~$*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Credenciales
+dags/token.json
+dags/credentials.json
