@@ -1,19 +1,29 @@
 ## Workshop 2: ETL y Análisis Grammy + Spotify con Airflow
 
-📂 Estructura del proyecto
+# 📂 Estructura del proyecto
 Airflow Docker/
 │
+
 ├── dags/                     # DAGs de Airflow
+
 ├── data/                     # Datasets originales y finales
+
 │   ├── spotify_dataset.csv
+
 │   └── merged_final_grammy_spotify_clean.csv
+
 ├── docker-compose.yaml       # Configuración de Airflow en Docker
+
 ├── requirements.txt          # Dependencias del proyecto
+
 ├── eda.ipynb                 # Notebook de análisis exploratorio
+
 ├── logs/                     # Logs generados por Airflow
+
 └── README.md
 
-🔧 Requisitos
+
+# 🔧 Requisitos
 
 Docker y Docker Compose instalados
 
@@ -23,7 +33,8 @@ Librerías del requirements.txt (pandas, re, etc.)
 
 Acceso a los datasets de Spotify y Grammy (CSV)
 
-🚀 Cómo ejecutar
+
+# 🚀 Cómo ejecutar
 
 Clonar el repositorio:
 
@@ -48,7 +59,8 @@ Al terminar, los datos combinados se encontrarán en:
 
 data/merged_final_grammy_spotify_clean.csv
 
-🧹 Transformaciones realizadas
+
+# 🧹 Transformaciones realizadas
 
 Limpieza de datos vacíos o inconsistentes.
 
@@ -62,7 +74,8 @@ Conversión de columna winner a boolean.
 
 Eliminación de columnas auxiliares.
 
-📊 Análisis exploratorio y visualizaciones
+
+# 📊 Análisis exploratorio y visualizaciones
 
 Se realizaron varias gráficas para explorar tendencias y relaciones entre los datasets:
 
@@ -76,13 +89,18 @@ Pie chart de cantidad de Grammys por género
 
 Cantidad de Grammys según si la canción es explícita o no
 
-📈 KPIs destacados
+
+# 📈 KPIs destacados
 
 Artista más premiado: Total de Grammys por artista.
 
-Popularidad promedio: Nivel de popularidad de canciones ganadoras.
+Nivel de Popularidad: Nivel de popularidad de canciones ganadoras del premio Song Of The Year.
 
-Danzabilidad promedio: Promedio de danceability de canciones ganadoras.
+Nivel de Danzabilidad: Recuento de danzabilidad de canciones ganadoras del premio Song Of The Year.
+
+Influencia de la explicitez de la cancion al ganar premio.
+
+Cantidad de premios por genero musical.
 
 ⚠️ Notas
 
