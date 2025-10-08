@@ -7,9 +7,7 @@ Airflow Docker/
 ├── dags/                     # DAGs de Airflow
 
 ├── data/                     # Datasets originales y finales
-
 │   ├── spotify_dataset.csv
-
 │   └── merged_final_grammy_spotify_clean.csv
 
 ├── docker-compose.yaml       # Configuración de Airflow en Docker
@@ -102,7 +100,7 @@ Influencia de la explicitez de la cancion al ganar premio.
 
 Cantidad de premios por genero musical.
 
-⚠️ Notas
+# ⚠️ Notas
 
 Todos los archivos de credenciales (token.json, credentials.json) han sido excluidos del repositorio por motivos de seguridad.
 
