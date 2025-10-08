@@ -1,4 +1,5 @@
-Workshop 2: ETL y Análisis Grammy + Spotify con Airflow
+## Workshop 2: ETL y Análisis Grammy + Spotify con Airflow
+
 📂 Estructura del proyecto
 Airflow Docker/
 │
