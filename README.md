@@ -7,7 +7,9 @@ Airflow Docker/
 ├── dags/                     # DAGs de Airflow
 
 ├── data/                     # Datasets originales y finales
+
 │   ├── spotify_dataset.csv
+
 │   └── merged_final_grammy_spotify_clean.csv
 
 ├── docker-compose.yaml       # Configuración de Airflow en Docker
